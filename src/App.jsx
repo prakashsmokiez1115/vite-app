@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Header'
 import Footer from './Footer'
 import Child1 from './Child1'
+import State from './State'
 
 
 function App() {
@@ -14,16 +15,18 @@ function App() {
 
   return (
     <div>
-      <h1>Hello React</h1>
+      <u><h1>Hello React</h1></u>
       {/* <Header />
       <Footer /> */}
 
-      <Child1
+      {/* <Child1
 
         user1={user1}
         user2={user2}
-      />
+      /> */}
 
+
+      <State />
     </div>
   )
 }
