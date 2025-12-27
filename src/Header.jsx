@@ -1,3 +1,4 @@
+// this is called side effect import
 import "./Header.css"
 
 

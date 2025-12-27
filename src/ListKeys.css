@@ -1,0 +1,14 @@
+/* ol List Styling */
+
+
+#olStyle {
+    list-style-type: square;
+    list-style-position: inside;
+    border: 5px solid black;
+    color: orange;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+
+
+}
