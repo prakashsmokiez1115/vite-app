@@ -5,6 +5,12 @@ const State = () => {
 
   let [count, setCount] = useState(0);
 
+  // const is a JavaScript keyword,
+  // count holds the current state value,
+  // setCount is the state updater function,
+  // and useState is a React Hook function.
+
+
   function runStateFunction() {
 
     setCount(count + 90);
