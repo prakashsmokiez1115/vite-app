@@ -7,6 +7,7 @@ import Footer from './Footer'
 import Child1 from './Child1'
 import State from './State'
 import ListKeys from './ListKeys'
+import Effect from './Effect'
 
 
 export let userData = createContext();
@@ -31,13 +32,17 @@ function App() {
       /> */}
 
 
-      {/* <State /> */}
+      <State />
 
-      {/* <ListKeys /> */}
+      <ListKeys />
+
 
       <userData.Provider value={{ user1, user2, user3, user4 }}>
         <Child1 />
       </userData.Provider>
+
+
+      <Effect/>
     </div>
   )
 }
